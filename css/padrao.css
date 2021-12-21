@@ -9,11 +9,7 @@
     float: right;
     text-align: right;
  }
-
- .metade{
-    width: 50%;
-
- }
+ 
 
  .clearfix::after{
     display: block;
@@ -29,6 +25,70 @@
    max-width: 1280px;
    margin: auto;
 }
+  /*gride*/
+.col-1{
+   width: 8.333%;
+}
+.col-2{
+   width: 16.666%;
+}
+.col-3{
+   width: 24.99%;
+}
+.col-4{
+   width: 33.32%;
+}
+.col-5{
+   width: 41.665%;
+}
+.col-6{
+   width: 50%;
+}
+.col-7{
+   width: 58.33%;
+}
+.col-8{
+   width:66.664%;
+}
+.col-9{
+   width:74.997%;
+}
+.col-10{
+   width:83.33%;
+}
+.col-11{
+   width:91.663%;
+}
+.col-12{
+   width:99.996%;
+}
+[class*="col-"] {
+   float: left;
+   padding: 10px;
+   border: 1px solid red;
+}
+.row::after{ /*equivalente ou clearfix*/
+    content: "";
+    clear: both;
+    display: table;
+}
+.responsivel{
 
-
+   width: 100%;
+}
+.p-1{
+   padding: 10px;
+}
+.p-2{
+   padding: 20px;
+}
+.p-3{
+  padding: 30px;
+}
+.p-4{
+   padding: 40px;
+}
+.p-5{
+   padding: 50px;
+}
 
