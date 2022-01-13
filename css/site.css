@@ -7,8 +7,8 @@ header{background-image: url(../img/produtos/img11.jpg);
 }
    /*Navegação*/
 
-nav{height:auto;
-    min-height: 60px;
+nav{max-height: 70px;
+    min-height: 50px;
     position: sticky;
     top: 0;
 }
@@ -19,7 +19,7 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-   line-height: 57px;
+   line-height: 50px;
    color: black;
    font-size: 15pt;
    font-family: Arial, Helvetica, sans-serif;
@@ -63,8 +63,19 @@ section {
     padding-top: 50px;
 }
 
-#rodape{
-   background-image: url(../img/pagamento.jpg);     
+#rodape div h1{
+    font-size: 40px;
+    padding-bottom: 10px;   
+ }
+
+#propagandas1{
+ background-image: url(../img/propaganda1.jpg);
+}
+#propagandas2{
+    background-image: url(../img/propaganda2.jpg);background-size: cover; 
+}
+.left{
+    float: left;
 }
 
 
