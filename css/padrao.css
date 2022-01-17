@@ -89,9 +89,21 @@
    padding: 40px;
 }
 .p-5{
-   padding: 50px;
+   padding: 50px;  
 }
+.p-6{
+   padding: 60px;
+}
+.p-7{
+   padding: 70px;
+}
+   
+
 .texto{
    text-align: center;
 }
+.circulo{
+   border-radius: 50%;
+}
+
 

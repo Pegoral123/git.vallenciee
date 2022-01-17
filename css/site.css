@@ -69,7 +69,7 @@ section {
  }
 
 #propagandas1{
- background-image: url(../img/propaganda1.jpg);
+ background-image: url(../img/propaganda1.jpg);background-size: cover
 }
 #propagandas2{
     background-image: url(../img/propaganda2.jpg);background-size: cover; 
@@ -78,4 +78,14 @@ section {
     float: left;
 }
 
+
+.produtos {
+    border-radius: 5px;
+    border:solid 1px #888
+}
+.produtos input, .produtos button{
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    padding: 5px;
+}
 
