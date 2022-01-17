@@ -53,15 +53,6 @@ section {
     max-height: 100%;
     padding: 80px 0;
 }
-    
-#divulgacao1 div{
-    float: left;
-    width: 20%;
-    text-align: center;
-    padding: 50;
-    padding-top: 50px;
-    padding-top: 50px;
-}
 
 #rodape div h1{
     font-size: 40px;
@@ -89,3 +80,19 @@ section {
     padding: 5px;
 }
 
+
+@media screen and (max-width: 760px){
+     nav ul{
+         display: block;
+         float: none;
+         width: 100%;
+}
+   nav ul li{
+       display: block;
+       width: 100%;
+       float: left;
+   }
+      
+      
+}
+    
