@@ -2,8 +2,9 @@
 
 header{background-image: url(../img/produtos/img11.jpg); 
     background-position: center;   
+    
   
-    padding: 50;
+    
 }
    /*Navegação*/
 
@@ -82,17 +83,21 @@ section {
 
 
 @media screen and (max-width: 760px){
-     nav ul{
-         display: block;
-         float: none;
+     nav ul{        
          width: 100%;
 }
    nav ul li{
-       display: block;
        width: 100%;
-       float: left;
-   }
-      
-      
+   }  
+   nav ul l a{
+       text-align: center;
+       
+   }   
 }
-    
+.responsive{
+    width: 100%;
+}
+.centro{
+    text-align: center;
+    margin: auto;
+}
