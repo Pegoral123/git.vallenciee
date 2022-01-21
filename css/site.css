@@ -8,10 +8,11 @@ header{background-image: url(../img/produtos/img11.jpg);
 }
    /*Navegação*/
 
-nav{max-height: 70px;
-    min-height: 50px;
-    position: sticky;
-    top: 0;
+nav{ max-height: 50px;
+    min-height: 30px;
+    background-color:palevioletred;
+  position: static;
+  top: 0;
 }
 nav ul {
      display:block;
@@ -30,12 +31,12 @@ nav ul li a{color:
     black;text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
     /* padding 15px 25px */           
-}
 
+ }
 nav ul li a:hover{ 
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -80,7 +81,6 @@ section {
     border-color: rgb(0, 0, 0);
     padding: 5px;
 }
-
 
 @media screen and (max-width: 760px){
      nav ul{        
