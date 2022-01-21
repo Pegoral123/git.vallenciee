@@ -72,7 +72,7 @@
     clear: both;
     display: table;
 }
-.responsivel{
+.responsive{
 
    width: 100%;
 }
@@ -97,11 +97,12 @@
 .p-7{
    padding: 70px;
 }
-   
-
-.texto{
+.centro{
    text-align: center;
-}
+   margin: auto;
+} 
+
+
 .circulo{
    border-radius: 50%;
 }

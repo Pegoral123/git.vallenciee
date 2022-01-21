@@ -2,15 +2,17 @@
 
 header{background-image: url(../img/produtos/img11.jpg); 
     background-position: center;   
+    
   
-    padding: 50;
+    
 }
    /*Navegação*/
 
-nav{max-height: 70px;
-    min-height: 50px;
-    position: sticky;
-    top: 0;
+nav{ max-height: 50px;
+    min-height: 30px;
+    background-color:palevioletred;
+  position: static;
+  top: 0;
 }
 nav ul {
      display:block;
@@ -29,12 +31,12 @@ nav ul li a{color:
     black;text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
     /* padding 15px 25px */           
-}
 
+ }
 nav ul li a:hover{ 
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -52,15 +54,6 @@ section {
     min-height: 250px;
     max-height: 100%;
     padding: 80px 0;
-}
-    
-#divulgacao1 div{
-    float: left;
-    width: 20%;
-    text-align: center;
-    padding: 50;
-    padding-top: 50px;
-    padding-top: 50px;
 }
 
 #rodape div h1{
@@ -89,3 +82,22 @@ section {
     padding: 5px;
 }
 
+@media screen and (max-width: 760px){
+     nav ul{        
+         width: 100%;
+}
+   nav ul li{
+       width: 100%;
+   }  
+   nav ul l a{
+       text-align: center;
+       
+   }   
+}
+.responsive{
+    width: 100%;
+}
+.centro{
+    text-align: center;
+    margin: auto;
+}
