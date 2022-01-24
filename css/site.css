@@ -73,7 +73,7 @@ section {
 
 
 .produtos {
-    border-radius: 5px;
+    border-radius: 5%;
     border:solid 1px #888
 }
 .produtos input, .produtos button{
@@ -101,3 +101,10 @@ section {
     text-align: center;
     margin: auto;
 }
+.borda{
+    border-radius:50%
+}
+.fonte{
+    font-size: 30px;
+}
+    

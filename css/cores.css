@@ -23,3 +23,8 @@
  .bg-dourado{
      background-color: rgb(180, 170, 26);
  }
+ .grad{
+    height: 200px;
+    background-color: palevioletred; /* For browsers that do not support gradients */
+    background-image: linear-gradient(palevioletred,rgb(190, 180, 40) );
+  }
