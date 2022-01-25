@@ -107,4 +107,9 @@ section {
 .fonte{
     font-size: 30px;
 }
-    
+/*media*/
+@media screen and (max-width:760px){
+
+    .sair{display: none;}
+   
+}
