@@ -67,6 +67,9 @@ section {
 #propagandas2{
     background-image: url(../img/propaganda2.jpg);background-size: cover; 
 }
+#propaganda3{
+  background-size: cover; 
+}
 .left{
     float: left;
 }
