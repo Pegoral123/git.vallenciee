@@ -11,8 +11,7 @@ header{background-image: url(../img/produtos/img11.jpg);
 nav{ max-height: 50px;
     min-height: 30px;
     background-color:palevioletred;
-  position: static;
-  top: 0;
+ 
 }
 nav ul {
      display:block;
@@ -85,18 +84,6 @@ section {
     padding: 5px;
 }
 
-@media screen and (max-width: 760px){
-     nav ul{        
-         width: 100%;
-}
-   nav ul li{
-       width: 100%;
-   }  
-   nav ul l a{
-       text-align: center;
-       
-   }   
-}
 .responsive{
     width: 100%;
 }
@@ -113,6 +100,16 @@ section {
 /*media*/
 @media screen and (max-width:760px){
 
-    .sair{display: none;}
-   
+    .sair{display: none; }
+
+    nav ul{        
+        width: 100%;
+}
+  nav ul li{
+      width: 100%;
+  }  
+  nav ul l a{
+      text-align: center;
+      
+  }   
 }
