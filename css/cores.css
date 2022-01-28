@@ -6,10 +6,10 @@
 }
  .bg-rosa{
    
-     background-color:palevioletred;
+     background-color:#db949b;
  }
  .rosa{
-     color: palevioletred;
+     color: #db949b;
  }
  .bg-black{
      background-color: black;    
@@ -18,13 +18,13 @@
      color: black;
  }
  .dourado{
-     color: rgb(190, 180, 40);
+     color: #f0cc72;
  }
  .bg-dourado{
-     background-color: rgb(180, 170, 26);
+     background-color: #f0cc72;
  }
  .grad{
     height: 200px;
-    background-color: palevioletred; /* For browsers that do not support gradients */
-    background-image: linear-gradient(palevioletred,rgb(190, 180, 40) );
+    background-color: #db949b; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#db949b,#f0cc72 );
   }

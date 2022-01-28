@@ -20,7 +20,7 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-   line-height: 50px;
+   line-height: 25px;
    color: black;
    font-size: 15pt;
    font-family: Arial, Helvetica, sans-serif;
@@ -97,6 +97,7 @@ section {
 .fonte{
     font-size: 30px;
 }
+
 /*media*/
 @media screen and (max-width:760px){
 
@@ -111,5 +112,9 @@ section {
   nav ul l a{
       text-align: center;
       
-  }   
+  } 
+  .foto{
+    height: 150px;
+   width: 150px;
+ }  
 }
