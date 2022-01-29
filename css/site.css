@@ -97,9 +97,12 @@ section {
 .fonte{
     font-size: 30px;
 }
+.imgSocial{
+    padding: 50px;
+}
 
 /*media*/
-@media screen and (max-width:760px){
+@media screen and (max-width:768px){
 
     .sair{display: none; }
 
@@ -113,8 +116,9 @@ section {
       text-align: center;
       
   } 
-  .foto{
-    height: 150px;
-   width: 150px;
- }  
+  
+ .imgSocial{
+    padding: 20px;
+}
+ 
 }
