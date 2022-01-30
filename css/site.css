@@ -1,6 +1,6 @@
  /*Cabeçalho*/
 
-header{background-image: url(../img/produtos/img11.jpg); 
+header{background-image: url(../img/fotos-da-marina/capa.jpg); 
     background-position: center;   
     
   
@@ -60,15 +60,11 @@ section {
     padding-bottom: 10px;   
  }
 
-#propagandas1{
- background-image: url(../img/propaganda1.jpg);background-size: cover
+.propaganda{
+    background-image: url(../img/fotos-da-marina/propaganda2.jpe);background-size: cover;  background-position: center;  background-color: black;
 }
-#propagandas2{
-    background-image: url(../img/propaganda2.jpg);background-size: cover; 
-}
-#propaganda3{
-  background-size: cover; 
-}
+
+
 .left{
     float: left;
 }
@@ -119,6 +115,9 @@ section {
   
  .imgSocial{
     padding: 20px;
+}
+.tamanho{
+    width: 200px;
 }
  
 }
