@@ -96,6 +96,11 @@ section {
 .imgSocial{
     padding: 50px;
 }
+.nolink {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 /*media*/
 @media screen and (max-width:768px){
