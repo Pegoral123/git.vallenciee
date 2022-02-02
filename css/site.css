@@ -119,6 +119,10 @@ section {
 .tamanho{
     padding-top: 40px;
 }
+.fotoSocial{
+    max-height: 200px;max-width: 200px;
+    text-align: center;
+}
 
  
  }
