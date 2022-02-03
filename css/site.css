@@ -100,6 +100,10 @@ section {
     text-decoration: none;
     color: inherit;
 }
+.icone{
+  font-size: 30px;
+}
+
 
 
 /*media*/
@@ -128,6 +132,17 @@ section {
     max-height: 200px;max-width: 200px;
     text-align: center;
 }
-
+.spacing{
+    padding-top: 20px;
+    text-align: center;
+    
+ 
+}
+.spacing1{
+  padding-right: 100px;
+  
+    
+ 
+}
  
  }
