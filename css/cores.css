@@ -24,7 +24,7 @@
      background-color: #f0cc72;
  }
  .grad{
-    height: 200px;
+    height: auto;
     background-color: #db949b; /* For browsers that do not support gradients */
     background-image: linear-gradient(#db949b,#f0cc72 );
   }
