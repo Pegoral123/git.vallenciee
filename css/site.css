@@ -42,7 +42,7 @@ nav ul li a:hover{
 
 }
 
-body {background-color:rgba(248, 245, 245, 0.993); 
+body {background-color:#f2f2f2; 
  
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -61,8 +61,13 @@ section {
  }
 
 .propaganda{
-    background-image: url(../im/fotos-da-marropaganda2.jpeg);background-size: cover;  background-position: center; background-color: black;
+    background-image: url(../img/fotos-da-marina/foto_propaganda2.jpeg);background-size: cover ;background-position: center ; background-color: black;
 }
+
+.propaganda2{
+    background-image: url(../img/fotos-da-marina/foto_propaganda2.jpeg);background-size: cover    ;background-position: center ; background-color: black;
+}
+
 
 
 
@@ -107,6 +112,7 @@ section {
 
 
 
+
 /*media*/
 @media screen and (max-width:768px){
 
@@ -142,8 +148,11 @@ section {
 .spacing1{
   padding-right: 100px;
   
-    
- 
 }
- 
+.padding{
+    padding-right: 30px;
+}
+.padding-left{
+    padding-left: 30px;
+}
  }
