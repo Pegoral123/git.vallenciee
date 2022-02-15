@@ -112,6 +112,7 @@ section {
 
 
 
+
 /*media*/
 @media screen and (max-width:768px){
 
@@ -147,8 +148,11 @@ section {
 .spacing1{
   padding-right: 100px;
   
-    
- 
 }
- 
+.padding{
+    padding-right: 30px;
+}
+.padding-left{
+    padding-left: 30px;
+}
  }
