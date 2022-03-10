@@ -1,30 +1,38 @@
-.bg-whithe{
-    background-color: #f2f2f2;
+.bg-whithe {
+    background-color: #ffffff;
 }
-.whithe{
-    color: #f2f2f2;
+
+.whithe {
+    color: #ffffff;
 }
- .bg-rosa{
-   
-     background-color:#db949b;
- }
- .rosa{
-     color: #db949b;
- }
- .bg-black{
-     background-color: black;    
- }
- .black{
-     color: black;
- }
- .dourado{
-     color: #f0cc72;
- }
- .bg-dourado{
-     background-color: #f0cc72;
- }
- .grad{
+
+.bg-rosa {
+    background-color: #d7949d;
+}
+
+.rosa {
+    color: #d7949d;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.black {
+    color: black;
+}
+
+.dourado {
+    color: #ecc661;
+}
+
+.bg-dourado {
+    background-color: #ecc661;
+}
+
+.grad {
     height: auto;
-    background-color: #db949b; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#db949b,#f0cc72 );
-  }
+    background-color: #d7949d;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(#d7949d, #ecc661);
+}
